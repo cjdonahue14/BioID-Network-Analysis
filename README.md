@@ -1,6 +1,6 @@
 # BioID-Network-Analysis
 The following contains the code used to develop the networks models for the following publication: "A protein-proximity screen reveals that Ebola virus co-opts the mRNA decapping complex through the scaffold protein EDC4"
-![Representation of the processing steps used to assemble the virus-host protein interaction networks used in this study](BioID-Network-Analysis/Pipeline input data/NetAnalysis_Graphic_Summary.png)
+![NetAnalysis_Graphic_Summary](https://github.com/cjdonahue14/BioID-Network-Analysis/assets/46386331/d9455e42-8eeb-412d-a788-62941235bb11)
 # Methods Overview
 BioID2 was used to identify putative interacting host proteins of six Ebola virus structural proteins. These host proteins were assembled into multiple network models, including a traditional hub and spoke protein-protein interaction network and Prize-Collecting Steiner Forest (PCSF) network, assembled using the Human Integrated Protein-Protein Interaction rEfernece (HIPPIE) interactome. The PCSF network was used to identify protein complexes present in the BioID hit lists and guide selection of hits for follow-up.
 ## Software dependencies
