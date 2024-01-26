@@ -2,7 +2,7 @@
 library(RCy3)
 library(igraph)
 library(readxl)
-setwd("C:/Users/Comma/Desktop/LaCount_Collabs/Decapping IF/Publication")
+setwd("/path to Extended data folders")
 read_excel("Extended data table 2.xlsx")-> BioIDUpAllandGFP
 BioIDUpAllandGFP[,1:2]->EdgesBioID2
 as.data.frame(EdgesBioID2)->BioID2DF
