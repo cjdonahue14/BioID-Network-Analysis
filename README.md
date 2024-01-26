@@ -19,6 +19,10 @@ Note that PCSF may need to be compiled from GitHub source using devtools::instal
 - enrichR Version 3.2
 - xlsx Version 0.6.5
 - Cytoscape Version 3.10
+## Time of package install:
+~10 minutes
+## Expected run time:
+~10 minutes
 ## Hub and Spoke Network assembly
 Using the script "HnS_for_cytoscape_script.R" an edge list from Extended data table 2 was uploaded to R. Using iGraph, a network was assembled from these edges and exported to Cytoscape using the RCy3 package. Further aesthetic changes were then made through the Cytoscape GUI
 ## PCSF Network assembly
