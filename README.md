@@ -5,6 +5,7 @@ The following contains the code used to develop the networks models for the foll
 BioID2 was used to identify putative interacting host proteins of six Ebola virus structural proteins. These host proteins were assembled into multiple network models, including a traditional hub and spoke protein-protein interaction network and Prize-Collecting Steiner Forest (PCSF) network, assembled using the Human Integrated Protein-Protein Interaction rEfernece (HIPPIE) interactome. The PCSF network was used to identify protein complexes present in the BioID hit lists and guide selection of hits for follow-up.
 ## Software dependencies
 Network analysis and gene-set enrichment analyses were performed locally and through APIs to Cytoscape and EnrichR
+Note that PCSF may need to be compiled from GitHub source using devtools::install_github. Visit https://github.com/IOR-Bioinformatics/PCSF for more information. 
 - R Version 4.3.1
 - BiocManager Version 1.30.22
 - devtools Version 2.4.5
