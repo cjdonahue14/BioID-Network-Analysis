@@ -32,6 +32,6 @@ PCSF network mapping, network annotation, and gene-set enrichment analysis were 
 Viral protein interaction rescores were uploaded from Extended data table 3, and added to the PCSF final network by adding the rescores as numerical data attributes to the genes within the PCSF network using the igraph package. This attributed network was then exported to Cytoscape using the RCy3 package. Network annotation was then completed using the "Style" section and Image/Chart tab.
 ### Gene-set enrichment analysis
 Network gene-set enrichment was performed using the code listed in "PCSF Network Analysis.R" script under the "Perform gene set enrichment for network analysis" section. This code was adapted from the source code for enrichment_analysis() function in the PCSF package (function is now deprecated). The network was clustered using edge_betweenness community detection in iGraph. Genelists were then submitted for gene-set enrichment against Gene Ontology, KEGG, and Reactome databases using the "enrichR" package. Gene-set enrichments were exported to an excel table (see Extended data table 4). Network enrichment was manually annotated onto the PCSF network using the "Style" section in Cytoscape.  
-# Other resources
-## CellProfiler pipelines used in this publiation are now included in the repository
+## Other resources
+CellProfiler pipelines used in this publiation are now included in the repository
 
